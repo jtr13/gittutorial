@@ -1,0 +1,98 @@
+Git Tutorial
+================
+
+### TO DO \#1: Create a repository
+
+1.  Sign in to Github, click "Start a project" or click "+" in the upper right corner and then "New repository"
+
+2.  Give it the name "goldfish" (or any other name you wish)
+
+3.  Check the "Initialize this repository with a README" box ✅
+
+4.  Click "Create repository"
+
+### TO DO \#2: Upload a file to the repository
+
+1.  Find the home page of your new repo
+
+2.  Click "Upload files"
+
+3.  Upload a photo of a goldfish (or any other file) to your repo
+
+### TO DO \#3: Submit an issue
+
+1.  Go to <https://github.com/jtr13/goldfish>
+
+2.  Click the Issues tab
+
+3.  Click New issue
+
+4.  Make up a title and comment and click "Submit new issue"
+
+### TO DO \#4: Configure Git
+
+1.  Follow these instructions to configure Git: <http://happygitwithr.com/hello-git.html>
+
+2.  The first time you use `git push` you will be asked for your GitHub username and password. Depending on how things are set up on your computer, these credentials may be saved automatically and you won't be asked again. Or you may be asked if you want the credentials to be saved. If not, if it gets tedious to repeatedly type in your username and password, follow these instructions to cache your credentials (that is, save your username and password):
+
+<https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage>
+
+### TO DO \#5: Clone the repo you created
+
+1.  Go to the repo on GitHub, click "Clone or download" and then the "Copy to clipboard" button (or simply copy the web URL)
+
+The URL will look like this:
+
+<https://github.com/><your-Github-account-name>/<your-repository-name>
+
+1.  In RStudio, click "File New Project..."
+
+2.  Choose "Version Control"
+
+3.  Choose "Git"
+
+4.  Paste the repository URL into the first box.
+
+5.  Give the project directory a name (it can be the same name as the repository)
+
+6.  Choose where to create the project (best to keep it out of other version control systems such as Dropbox).
+
+7.  Click "Create Project"
+
+### TO DO \#6: Add a file
+
+1.  Create any file as you normally would in RStudio and save it.
+
+2.  Notice that it appears on the Git tab on the upper right corner of the screen.
+
+3.  Check the box to "stage" the file (this is equivalent to `git add`) -- the status changes to a green "A".
+
+4.  Click "Commit". A new screen opens up.
+
+5.  Write a commit message, such as "first commit". You must do this!
+
+6.  Click "Commit". ( = `git commit`) You will get a popup with info about the commit. Close it.
+
+7.  Click "Push" (green up arrow on top right of screen) ( = `git push`)
+
+8.  You should get another info message that ends with 'master -&gt; master\`. You can close it.
+
+9.  Go back to Github.com. If all went well, your new file will be there.
+
+### TO DO \#7: Change a file
+
+1.  Make a change to your new file. Save it. (Note that nothing happens in the Git window until you save the file.)
+
+2.  A blue "M" should appear in the Git window since the file has been **M**odified.
+
+3.  Click the "stage" button and the "M" will jump to the left.
+
+4.  Click "Commit". Now you will see the changes you've made since your last commit. This is useful!
+
+5.  Repeat steps 5.- 9. from "Adding a file"
+
+### TO DO \#8: Practice with multiple files
+
+1.  Add several files and make changes to them.
+
+2.  Stage (add), commit, and push them all at once. You can commit multiple files with one commit message.
