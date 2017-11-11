@@ -1,5 +1,13 @@
-Git Tutorial
+Git tutorial for R users
 ================
+Joyce Robbins
+2017-11-11
+
+This is a simple barebones tutorial designed to help you first become familiar with GitHub.com, and then get started using a combination of GitHub and Git for code version control, sharing, and collaboration -- three distinct but related enterprises.
+
+If you are not familiar with one or more of the concepts just mentioned, or are asking yourself why you should bother with any of this, I recommend that you first watch this webinar by Hadley Wickham, in which he explains the benefits of creating systems for version control, sharing, and collaboration, which he presents in terms of the larger goals of *safety* and *community*:
+
+[Collaboration and time travel: version control with git, github and RStudio](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
 
 ### TO DO \#1: Create a repository
 

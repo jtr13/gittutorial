@@ -1,7 +1,7 @@
 ---
-title: "Git Tutorial"
-author: Joyce Robbins
-date: `r sys.Date()`
+title: "Git tutorial for R users"
+author: "Joyce Robbins"
+date: "2017-11-11"
 output: github_document
 ---
 
@@ -10,6 +10,11 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE,
                       error = TRUE)
 ```
 
+This is a simple barebones tutorial designed to help you first become familiar with GitHub.com, and then get started using a combination of GitHub and Git for code version control, sharing, and collaboration -- three distinct but related enterprises.
+
+If you are not familiar with one or more of the concepts just mentioned, or are asking yourself why you should bother with any of this, I recommend that you first watch this webinar by Hadley Wickham, in which he explains the benefits of creating systems for version control, sharing, and collaboration, which he presents in terms of the larger goals of *safety* and *community*:
+
+[Collaboration and time travel: version control with git, github and RStudio](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
 
 
 ### TO DO #1: Create a repository
@@ -47,6 +52,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE,
 2. The first time you use `git push` you will be asked for your GitHub username and password. Depending on how things are set up on your computer, these credentials may be saved automatically and you won't be asked again. Or you may be asked if you want the credentials to be saved. If not, if it gets tedious to repeatedly type in your username and password, follow these instructions to cache your credentials (that is, save your username and password): 
 
 https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
+
 
 ### TO DO #5: Clone the repo you created
 
