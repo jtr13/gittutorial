@@ -1,5 +1,7 @@
 ---
 title: "Git Tutorial"
+author: Joyce Robbins
+date: `r sys.Date()`
 output: github_document
 ---
 
@@ -7,6 +9,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE, cache = TRUE,
                       error = TRUE)
 ```
+
+
 
 ### TO DO #1: Create a repository
 
