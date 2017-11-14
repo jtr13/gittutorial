@@ -3,7 +3,7 @@ The No-Shell\* Git/GitHub Tutorial for R users using RStudio
 Joyce Robbins
 2017-11-14
 
-\* Not exactly, but we'll keep shell commands to an absolute minimum.
+\*Not exactly, but we'll keep shell commands to an absolute minimum.
 
 This is a simple barebones tutorial designed to help you first become familiar with GitHub.com, and then get started using a combination of GitHub and Git for code version control, sharing, and collaboration -- three distinct but related enterprises.
 
@@ -176,4 +176,4 @@ Now what?
 
 2.  Delete all the added stuff and just fix the file as you want it to be. *Do not worry if you are keeping the local or the remote changes; for our purposes, it doesn't matter.*
 
-3.  Save the file. Commit and push the changes. \*You just resolved a merge conflict! :muscle:
+3.  Save the file. Commit and push the changes. *You just resolved a merge conflict!* :muscle:

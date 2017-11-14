@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE,
                       error = TRUE)
 ```
 
-\* Not exactly, but we'll keep shell commands to an absolute minimum.
+\*Not exactly, but we'll keep shell commands to an absolute minimum.
 
 This is a simple barebones tutorial designed to help you first become familiar with GitHub.com, and then get started using a combination of GitHub and Git for code version control, sharing, and collaboration -- three distinct but related enterprises.
 
@@ -188,6 +188,6 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 1. Delete all the added stuff and just fix the file as you want it to be. *Do not worry if you are keeping the local or the remote changes; for our purposes, it doesn't matter.*
 
-1. Save the file. Commit and push the changes. *You just resolved a merge conflict! :muscle:
+1. Save the file. Commit and push the changes. *You just resolved a merge conflict!* :muscle:
 
 
