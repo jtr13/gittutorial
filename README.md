@@ -1,3 +1,3 @@
-# gittutorial
+# Git Tutorial for R Users
 
-Click [here](gittutorial.md) for the tutorial.
+Click [here](GitTutorial.md) for the tutorial.
