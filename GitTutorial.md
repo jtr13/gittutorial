@@ -1,9 +1,9 @@
-The No Shell (Maybe\*) Git/GitHub Tutorial for R users
+The No-Shell\* Git/GitHub Tutorial for R users using RStudio
 ================
 Joyce Robbins
 2017-11-14
 
--   no promises
+\* Not exactly, but we'll keep shell commands to an absolute minimum.
 
 This is a simple barebones tutorial designed to help you first become familiar with GitHub.com, and then get started using a combination of GitHub and Git for code version control, sharing, and collaboration -- three distinct but related enterprises.
 
@@ -11,7 +11,9 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 
 [Collaboration and time travel: version control with git, github and RStudio](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
 
-### TO DO \#1: Create a repository on
+Note: we will be switching back and forth between "remote" GitHub ![](github.png) and "local" RStudio ![](rstudio.png). Check the icon to verify that you're in the right place.
+
+### TO DO \#1: Create a repository on GitHub.com
 
 1.  If you have an account, sign in to [GitHub](https://github.com/login);
 
@@ -21,11 +23,9 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 
 3.  Give it the name "goldfish" (or any other name you wish)
 
-4.  Check the ☑️"Initialize this repository with a README" box
+4.  Check ☑️**Initialize this repository with a README**
 
-5.  Check the \[x\]"Initialize this repository with a README" box
-
-6.  Click "Create repository"
+5.  Click "Create repository"
 
 ### TO DO \#2: Upload a file to the repository
 
