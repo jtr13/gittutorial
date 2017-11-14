@@ -21,39 +21,39 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 
 1. If you have an account, sign in to [GitHub](https://github.com/login), 
 
-If you don't have an account, [create a GitHub account](https://github.com/join?source=login).
+    If you don't have an account, [create a GitHub account](https://github.com/join?source=login).
 
-(@). click "Start a project" or click "+" in the upper right corner and then "New repository"
+1. click "Start a project" or click "+" in the upper right corner and then "New repository"
 
-2. Give it the name "goldfish" (or any other name you wish)
+1. Give it the name "goldfish" (or any other name you wish)
 
-3. Check the `r emo::ji("ballot_box_with_check")`"Initialize this repository with a README" box 
+1. Check the `r emo::ji("ballot_box_with_check")`"Initialize this repository with a README" box 
 
-4. Click "Create repository"
+1. Click "Create repository"
 
 ### TO DO #2: Upload a file to the repository
 
 1. Find the home page of your new repo
 
-2. Click "Upload files"
+1. Click "Upload files"
 
-3. Upload a photo of a goldfish (or any other file) to your repo
+1. Upload a photo of a goldfish (or any other file) to your repo
 
 ### TO DO #3: Submit an issue
 
 1. Go to https://github.com/jtr13/goldfish
 
-2. Click the Issues tab
+1. Click the Issues tab
 
-3. Click New issue
+1. Click New issue
 
-4. Make up a title and comment and click "Submit new issue" 
+1. Make up a title and comment and click "Submit new issue" 
 
 ### TO DO #4: Configure Git
 
 1. Follow these instructions to configure Git:  http://happygitwithr.com/hello-git.html
 
-2. The first time you use `git push` you will be asked for your GitHub username and password. Depending on how things are set up on your computer, these credentials may be saved automatically and you won't be asked again. Or you may be asked if you want the credentials to be saved. If not, if it gets tedious to repeatedly type in your username and password, follow these instructions to cache your credentials (that is, save your username and password): 
+1. The first time you use `git push` you will be asked for your GitHub username and password. Depending on how things are set up on your computer, these credentials may be saved automatically and you won't be asked again. Or you may be asked if you want the credentials to be saved. If not, if it gets tedious to repeatedly type in your username and password, follow these instructions to cache your credentials (that is, save your username and password): 
 
 https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 
@@ -66,57 +66,54 @@ The URL will look like this:
 
 https://github.com/<your-Github-account-name>/<your-repository-name>
 
-2. In RStudio, click "File New Project..."
+1. In RStudio, click "File New Project..."
 
-3. Choose "Version Control"
+1. Choose "Version Control"
 
-4. Choose "Git"
+1. Choose "Git"
 
-5. Paste the repository URL into the first box.
+1. Paste the repository URL into the first box.
 
-6. Give the project directory a name (it can be the same name as the repository)
+1. Give the project directory a name (it can be the same name as the repository)
 
-7. Choose where to create the project (best to keep it out of other version control systems such as Dropbox). 
+1. Choose where to create the project (best to keep it out of other version control systems such as Dropbox). 
 
-8. Click "Create Project"
+1. Click "Create Project"
 
 ### TO DO #6: Add a file
 
 1. Create any file as you normally would in RStudio and save it.
 
-2. Notice that it appears on the Git tab on the upper right corner of the screen.
+1. Notice that it appears on the Git tab on the upper right corner of the screen.
 
-3. Check the box to "stage" the file (this is equivalent to `git add`) -- the status changes to a green "A".
+1. Check the box to "stage" the file (this is equivalent to `git add`) -- the status changes to a green "A".
 
-4. Click "Commit". A new screen opens up.
+1. Click "Commit". A new screen opens up.
 
-5. Write a commit message, such as "first commit". You must do this!
+1. Write a commit message, such as "first commit". You must do this!
 
-6. Click "Commit". ( = `git commit`) You will get a popup with info about the commit.  Close it.
+1. Click "Commit". ( = `git commit`) You will get a popup with info about the commit.  Close it.
 
-7. Click "Push" (green up arrow on top right of screen) ( = `git push`)
+1. Click "Push" (green up arrow on top right of screen) ( = `git push`)
 
-8. You should get another info message that ends with 'master -> master`. You can close it.
+1. You should get another info message that ends with 'master -> master`. You can close it.
 
-9. Go back to Github.com.  If all went well, your new file will be there.
+1. Go back to Github.com.  If all went well, your new file will be there.
 
 ### TO DO #7: Change a file
 
 1. Make a change to your new file. Save it. (Note that nothing happens in the Git window until you save the file.)
 
-2. A blue "M" should appear in the Git window since the file has been **M**odified.
+1. A blue "M" should appear in the Git window since the file has been **M**odified.
 
-3. Click the "stage" button and the "M" will jump to the left.
+1. Click the "stage" button and the "M" will jump to the left.
 
-4. Click "Commit".  Now you will see the changes you've made since your last commit. This is useful!
+1. Click "Commit".  Now you will see the changes you've made since your last commit. This is useful!
 
-5. Repeat steps 5.- 9. from "Adding a file"
+1. Repeat steps 5.- 9. from "Adding a file"
 
 ### TO DO #8: Practice with multiple files
 
 1. Add several files and make changes to them.
 
-2. Stage (add), commit, and push them all at once.  You can commit multiple files with one commit message.
-
-
-
+1. Stage (add), commit, and push them all at once.  You can commit multiple files with one commit message.
