@@ -15,13 +15,13 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 
 If you don't have an account, [create a GitHub account](https://github.com/join?source=login).
 
-(@). click "Start a project" or click "+" in the upper right corner and then "New repository"
+1. click "Start a project" or click "+" in the upper right corner and then "New repository"
 
 1.  Give it the name "goldfish" (or any other name you wish)
 
-2.  Check the ☑️"Initialize this repository with a README" box
+1.  Check the ☑️"Initialize this repository with a README" box
 
-3.  Click "Create repository"
+1.  Click "Create repository"
 
 ### TO DO \#2: Upload a file to the repository
 
