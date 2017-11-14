@@ -11,8 +11,6 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 
 [Collaboration and time travel: version control with git, github and RStudio](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
 
-Note: we will be switching back-and-forth between "remote" GitHub and "local" RStudio. The location where you should be working is indidcated in bold.
-
 ### TO DO \#1: Create a repository on GitHub.com
 
 1.  If you have an account, sign in to [GitHub](https://github.com/login);
@@ -122,3 +120,5 @@ The URL will has three parts: 1) the GitHub address, 2) your username, 3) the na
 A key principle of working with version control is not to make changes similtaneously in two places. Since cloning the repository, we have been making local changes and pushing them to remote (GitHub.com). Now we'll try making a change remotely (on GitHub.com) and then retrieve (`git fetch`) the changes and combine (`git merge`) them with what we have locally. These two tasks are often combined into one (`git pull`), which we will accomplish in RStudio by clicking the down arrow ⬇ button in the Git pane.
 
 1.  Go to **GitHub.com** and make an edit to the README.md file in your repository. (Click the file name, click the Edit this file icon ![](edit.png), make some changes, then click the green "Commit changes" button.)
+
+2.  Go back to **RStudio** and click the `git pull` ![](pull.png) button.
