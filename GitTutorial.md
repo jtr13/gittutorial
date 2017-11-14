@@ -117,8 +117,12 @@ The URL will has three parts: 1) the GitHub address, 2) your username, 3) the na
 
 ### TO DO \#9: Change a file on GitHub.com and pull it to local
 
-A key principle of working with version control is not to make changes similtaneously in two places. Since cloning the repository, we have been making local changes and pushing them to remote (GitHub.com). Now we'll try making a change remotely (on GitHub.com) and then retrieve (`git fetch`) the changes and combine (`git merge`) them with what we have locally. These two tasks are often combined into one (`git pull`), which we will accomplish in RStudio by clicking the down arrow ⬇ button in the Git pane.
+A key principle of working with version control is not to make changes similtaneously in two places. Since cloning the repository, we have been making local changes and pushing them to remote (GitHub.com). Now we'll try making a change remotely (on GitHub.com) and then retrieve (`git fetch`) the changes and combine (`git merge`) them with what we have locally. These two tasks are often combined into one (`git pull`), which we will accomplish in RStudio by clicking the down arrow ![](pull.png) button in the Git pane. (More info from GitHub Help on fetching a remote can be found [here](https://help.github.com/articles/fetching-a-remote/).
 
 1.  Go to **GitHub.com** and make an edit to the README.md file in your repository. (Click the file name, click the Edit this file icon ![](edit.png), make some changes, then click the green "Commit changes" button.)
 
-2.  Go back to **RStudio** and click the `git pull` ![](pull.png) button.
+2.  Go back to **RStudio** and click the `git pull` ![](pull.png) button. You should get a message indicating that README.md was changed.
+
+\*\*Make it a habit to start your work session with a "pull" and end it with a "push" to prevent getting out of sync with the remote version of your repository.
+
+### TO DO \#10: Let's do things wrong and see what happens :japanese\_ogre:
