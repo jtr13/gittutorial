@@ -144,3 +144,5 @@ Ok, we know we're supposed to pull first before we begin working, but let's supp
     Let's see what happens when we try to push:
 
 1. Commit the local changes and click push. 
+
+What happened? There's a problem! 
