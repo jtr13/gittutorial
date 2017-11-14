@@ -1,5 +1,5 @@
 ---
-title: "Git/GitHub Tutorial for R users"
+title: "The No Shell (Maybe*) Git/GitHub Tutorial for R users"
 author: "Joyce Robbins"
 date: "2017-11-14"
 output: github_document
@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE,
                       error = TRUE)
 ```
 
+* no promises
+
 This is a simple barebones tutorial designed to help you first become familiar with GitHub.com, and then get started using a combination of GitHub and Git for code version control, sharing, and collaboration -- three distinct but related enterprises.
 
 If you are not familiar with one or more of the concepts just mentioned, or are asking yourself why you should bother with any of this, I recommend that you first watch this webinar by Hadley Wickham, in which he explains the benefits of creating systems for version control, sharing, and collaboration, which he presents in terms of the larger goals of *safety* and *community*:
@@ -19,15 +21,17 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 
 ### TO DO #1: Create a repository on 
 
-1. If you have an account, sign in to [GitHub](https://github.com/login), 
+1. If you have an account, sign in to [GitHub](https://github.com/login); 
 
-    If you don't have an account, [create a GitHub account](https://github.com/join?source=login).
+    if you don't have an account, [create a GitHub account](https://github.com/join?source=login).
 
-1. click "Start a project" or click "+" in the upper right corner and then "New repository"
+1. Click "Start a project" or click "+" in the upper right corner and then "New repository"
 
 1. Give it the name "goldfish" (or any other name you wish)
 
 1. Check the `r emo::ji("ballot_box_with_check")`"Initialize this repository with a README" box 
+
+1. Check the [x]"Initialize this repository with a README" box 
 
 1. Click "Create repository"
 
