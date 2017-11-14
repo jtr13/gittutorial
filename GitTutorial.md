@@ -57,11 +57,11 @@ Please [submit an issue](https://github.com/jtr13/gittutorial/issues) and descri
 
 ### TO DO \#5: Clone the repo you created **GitHub.com**
 
-1.  Go to the repo on GitHub, click "Clone or download" and then the "Copy to clipboard" button (or simply copy the web URL)
+1.  Go to the repo on GitHub, click "Clone or download" and then the "Copy to clipboard" button:
 
-The URL will look like this:
+The URL will has three parts: 1) the GitHub address, 2) your username, 3) the name of the repository followed by ".git", for example:
 
-[https://github\\.com/\\](https://github\.com/\)<your-Github-account-name\>/&lt;your-repository-name&gt;
+<https://github.com/jtr13/goldfish.git>
 
 1.  In **RStudio**, click "File New Project..."
 
