@@ -11,9 +11,9 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 
 [Collaboration and time travel: version control with git, github and RStudio](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
 
-Note: we will be switching back and forth between "remote" GitHub ![](github.png) and "local" RStudio ![](rstudio.png). Check the icon to verify that you're in the right place.
+Note: we will be switching back-and-forth between "remote" GitHub and "local" RStudio. The location where you should be working is indidcated in bold.
 
-### TO DO \#1: Create a repository on GitHub.com
+### TO DO \#1: Create a repository on **GitHub.com**
 
 1.  If you have an account, sign in to [GitHub](https://github.com/login);
 
@@ -27,7 +27,7 @@ Note: we will be switching back and forth between "remote" GitHub ![](github.png
 
 5.  Click "Create repository"
 
-### TO DO \#2: Upload a file to the repository
+### TO DO \#2: Upload a file to the repository **GitHub.com**
 
 1.  Find the home page of your new repo
 
@@ -35,7 +35,7 @@ Note: we will be switching back and forth between "remote" GitHub ![](github.png
 
 3.  Upload a photo of a goldfish (or any other file) to your repo
 
-### TO DO \#3: Submit an issue
+### TO DO \#3: Submit an issue on **GitHub.com**
 
 1.  Go to <https://github.com/jtr13/goldfish>
 
@@ -45,7 +45,7 @@ Note: we will be switching back and forth between "remote" GitHub ![](github.png
 
 4.  Make up a title and comment and click "Submit new issue"
 
-### TO DO \#4: Configure Git
+### TO DO \#4: Configure Git **locally**
 
 1.  Follow these instructions to configure Git: <http://happygitwithr.com/hello-git.html>
 
@@ -53,15 +53,17 @@ Note: we will be switching back and forth between "remote" GitHub ![](github.png
 
 <https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage>
 
-### TO DO \#5: Clone the repo you created
+Please [submit an issue](https://github.com/jtr13/gittutorial/issues) and describe your experience caching credentials. Add the label "caching credentials."
+
+### TO DO \#5: Clone the repo you created **GitHub.com**
 
 1.  Go to the repo on GitHub, click "Clone or download" and then the "Copy to clipboard" button (or simply copy the web URL)
 
 The URL will look like this:
 
-<https://github.com/><your-Github-account-name>/<your-repository-name>
+[https://github.com/\\](https://github.com/\)<your-Github-account-name>/&lt;your-repository-name&gt;
 
-1.  In RStudio, click "File New Project..."
+1.  In **RStudio**, click "File New Project..."
 
 2.  Choose "Version Control"
 
@@ -75,7 +77,7 @@ The URL will look like this:
 
 7.  Click "Create Project"
 
-### TO DO \#6: Add a file
+### TO DO \#6: Add a file **RStudio**
 
 1.  Create any file as you normally would in RStudio and save it.
 
@@ -95,7 +97,7 @@ The URL will look like this:
 
 9.  Go back to Github.com. If all went well, your new file will be there.
 
-### TO DO \#7: Change a file
+### TO DO \#7: Change a file **RStudio**
 
 1.  Make a change to your new file. Save it. (Note that nothing happens in the Git window until you save the file.)
 
@@ -107,7 +109,7 @@ The URL will look like this:
 
 5.  Repeat steps 5.- 9. from "Adding a file"
 
-### TO DO \#8: Practice with multiple files
+### TO DO \#8: Practice with multiple files **RStudio**
 
 1.  Add several files and make changes to them.
 
