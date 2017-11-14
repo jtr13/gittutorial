@@ -184,6 +184,10 @@ Automatic merge failed; fix conflicts and then commit the result.
 
    Now what?
    
+1. Open README.md in **RStudio** and you'll see that it combines changes make remotely and locally along with conflict markers "<<<<<<<", ">>>>>>>" and other stuff.  
 
+1. Delete all the added stuff and just fix the file as you want it to be. *Do not worry if you are keeping the local or the remote changes; for our purposes, it doesn't matter.*
+
+1. Save the file. Commit and push the changes. *You just resolved a merge conflict! :muscle:
 
 

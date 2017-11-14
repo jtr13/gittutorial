@@ -125,7 +125,7 @@ A key principle of working with version control is not to make changes similtane
 
 **Make it a habit to start your work session with a "pull" and end it with a "push" to prevent getting out of sync with the remote version of your repository.**
 
-### TO DO \#10: Let's do things wrong and see what happens :smiling\_imp:
+### TO DO \#10: Let's make a mess :smiling\_imp:
 
 Ok, we know we're supposed to pull first before we begin working, but let's suppose we forget to do that... let's simulate that scenario.
 
@@ -151,3 +151,29 @@ What happened? There's a problem! If you change remote and local simultaneously 
 Since the changes are in different files, we can fix this by *pulling* ![](pull.png) first and then *pushing* ![](push.png) again.
 
 ### TO DO \#11: Let's make a bigger mess. :smiling\_imp: :smiling\_imp:
+
+This time we're going to make simultaneous changes to the *same file* remotely and locally and see what happens.
+
+1.  Make a change to the README.md file on **GitHub.com** and click Commit changes.
+
+2.  In **RStudio**, make a change to the README.md file and save it.
+
+3.  Commit the changes in **RStudio** and click push ![](push.png).
+
+A problem... we get a similar error message as before. Let's try to solve it as we did in the previous section but clicking pull ![](pull.png) before pushing.
+
+But this time it's not so easy to fix the problem. If you try to pull changes from remote with edits to the same file, you'll be informed there's a conflict when you try to pull. It will look something like this:
+
+    From https://github.com/jtr13/gittutorial
+       b4c21a1..28b94b4  master     -> origin/master
+    Auto-merging README.md
+    CONFLICT (content): Merge conflict in README.md
+    Automatic merge failed; fix conflicts and then commit the result.
+
+Now what?
+
+1.  Open README.md in **RStudio** and you'll see that it combines changes make remotely and locally along with conflict markers "&lt;&lt;&lt;&lt;&lt;&lt;&lt;", "&gt;&gt;&gt;&gt;&gt;&gt;&gt;" and other stuff.
+
+2.  Delete all the added stuff and just fix the file as you want it to be. *Do not worry if you are keeping the local or the remote changes; for our purposes, it doesn't matter.*
+
+3.  Save the file. Commit and push the changes. \*You just resolved a merge conflict! :muscle:
