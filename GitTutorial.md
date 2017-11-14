@@ -61,7 +61,7 @@ Please [submit an issue](https://github.com/jtr13/gittutorial/issues) and descri
 
 The URL will look like this:
 
-[https://github.com/\\](https://github.com/\)<your-Github-account-name>/&lt;your-repository-name&gt;
+[https://github.com/\\](https://github.com/\)<your-Github-account-name\>/&lt;your-repository-name&gt;
 
 1.  In **RStudio**, click "File New Project..."
 
