@@ -139,10 +139,22 @@ Ok, we know we're supposed to pull first before we begin working, but let's supp
 
 1. Making another change to the README.md on GitHub.com
 
-1. Jump back to **RStudio** and make a change to a local file *without pulling the remote change first*.
+1. Jump back to **RStudio** and make a change to a *different* local file *without pulling the remote change first*.
 
     Let's see what happens when we try to push:
 
 1. Commit the local changes and click push. 
 
-What happened? There's a problem! 
+What happened? There's a problem! If you change remote and local simultaneously your push will be rejected, and you'll get a message that looks like this:
+
+```
+To https://github.com/jtr13/gittutorial.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/jtr13/gittutorial.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+

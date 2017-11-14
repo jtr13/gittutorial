@@ -123,6 +123,27 @@ A key principle of working with version control is not to make changes similtane
 
 2.  Go back to **RStudio** and click the `git pull` ![](pull.png) button. You should get a message indicating that README.md was changed.
 
-\*\*Make it a habit to start your work session with a "pull" and end it with a "push" to prevent getting out of sync with the remote version of your repository.
+**Make it a habit to start your work session with a "pull" and end it with a "push" to prevent getting out of sync with the remote version of your repository.**
 
-### TO DO \#10: Let's do things wrong and see what happens :japanese\_ogre:
+### TO DO \#10: Let's do things wrong and see what happens :smiling\_imp:
+
+Ok, we know we're supposed to pull first before we begin working, but let's suppose we forget to do that... let's simulate that scenario.
+
+1.  Making another change to the README.md on GitHub.com
+
+2.  Jump back to **RStudio** and make a change to a *different* local file *without pulling the remote change first*.
+
+    Let's see what happens when we try to push:
+
+3.  Commit the local changes and click push.
+
+What happened? There's a problem! If you change remote and local simultaneously your push will be rejected, and you'll get a message that looks like this:
+
+    To https://github.com/jtr13/gittutorial.git
+     ! [rejected]        master -> master (fetch first)
+    error: failed to push some refs to 'https://github.com/jtr13/gittutorial.git'
+    hint: Updates were rejected because the remote contains work that you do
+    hint: not have locally. This is usually caused by another repository pushing
+    hint: to the same ref. You may want to first integrate the remote changes
+    hint: (e.g., 'git pull ...') before pushing again.
+    hint: See the 'Note about fast-forwards' in 'git push --help' for details.
