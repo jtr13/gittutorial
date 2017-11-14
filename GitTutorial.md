@@ -13,7 +13,7 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 
 Note: we will be switching back-and-forth between "remote" GitHub and "local" RStudio. The location where you should be working is indidcated in bold.
 
-### TO DO \#1: Create a repository on **GitHub.com**
+### TO DO \#1: Create a repository on GitHub.com
 
 1.  If you have an account, sign in to [GitHub](https://github.com/login);
 
@@ -27,7 +27,7 @@ Note: we will be switching back-and-forth between "remote" GitHub and "local" RS
 
 5.  Click "Create repository"
 
-### TO DO \#2: Upload a file to the repository **GitHub.com**
+### TO DO \#2: Upload a file to the repository on GitHub.com
 
 1.  Find the home page of your new repo
 
@@ -35,7 +35,7 @@ Note: we will be switching back-and-forth between "remote" GitHub and "local" RS
 
 3.  Upload a photo of a goldfish (or any other file) to your repo
 
-### TO DO \#3: Submit an issue on **GitHub.com**
+### TO DO \#3: Submit an issue on GitHub.com
 
 1.  Go to <https://github.com/jtr13/goldfish>
 
@@ -45,7 +45,9 @@ Note: we will be switching back-and-forth between "remote" GitHub and "local" RS
 
 4.  Make up a title and comment and click "Submit new issue"
 
-### TO DO \#4: Configure Git **locally**
+**NOW LET'S LEAVE GITHUB.COM AND SET THINGS UP TO USE VERSION CONTROL FROM WITHIN RSTUDIO**
+
+### TO DO \#4: Configure Git
 
 1.  Follow these instructions to configure Git: <http://happygitwithr.com/hello-git.html>
 
@@ -55,7 +57,7 @@ Note: we will be switching back-and-forth between "remote" GitHub and "local" RS
 
 Please [submit an issue](https://github.com/jtr13/gittutorial/issues) and describe your experience caching credentials. Add the label "caching credentials."
 
-### TO DO \#5: Clone the repo you created **GitHub.com**
+### TO DO \#5: Clone the repo you created on GitHub.com
 
 1.  Go to the repo on GitHub, click "Clone or download" and then the "Copy to clipboard" button:
 
@@ -77,7 +79,7 @@ The URL will has three parts: 1) the GitHub address, 2) your username, 3) the na
 
 7.  Click "Create Project"
 
-### TO DO \#6: Add a file **RStudio**
+### TO DO \#6: Add a file to the repository from within RStudio
 
 1.  Create any file as you normally would in RStudio and save it.
 
@@ -95,9 +97,9 @@ The URL will has three parts: 1) the GitHub address, 2) your username, 3) the na
 
 8.  You should get another info message that ends with 'master -&gt; master\`. You can close it.
 
-9.  Go back to Github.com. If all went well, your new file will be there.
+9.  Go back to **Github.com** If all went well, your new file will be there.
 
-### TO DO \#7: Change a file **RStudio**
+### TO DO \#7: Change a file in the repo from within RStudio
 
 1.  Make a change to your new file. Save it. (Note that nothing happens in the Git window until you save the file.)
 
@@ -109,8 +111,14 @@ The URL will has three parts: 1) the GitHub address, 2) your username, 3) the na
 
 5.  Repeat steps 5.- 9. from "Adding a file"
 
-### TO DO \#8: Practice with multiple files **RStudio**
+### TO DO \#8: Change multiple files in RStudio in one commit
 
 1.  Add several files and make changes to them.
 
 2.  Stage (add), commit, and push them all at once. You can commit multiple files with one commit message.
+
+### TO DO \#9: Change a file on GitHub.com and pull it to local
+
+A key principle of working with version control is not to make changes similtaneously in two places. Since cloning the repository, we have been making local changes and pushing them to remote (GitHub.com). Now we'll try making a change remotely (on GitHub.com) and then retrieve (`git fetch`) the changes and combine (`git merge`) them with what we have locally. These two tasks are often combined into one (`git pull`), which we will accomplish in RStudio by clicking the down arrow ⬇ button in the Git pane.
+
+1.  Go to **GitHub.com** and make an edit to the README.md file in your repository. (Click the file name, click the Edit this file icon ![](editthisfile.png), make some changes, then click the green "Commit changes" button.)
