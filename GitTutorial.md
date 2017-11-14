@@ -148,4 +148,6 @@ What happened? There's a problem! If you change remote and local simultaneously 
     hint: (e.g., 'git pull ...') before pushing again.
     hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
-Since the changes are in different files, we can fix this by *pulling* ![](pull.png) first and then trying to push ![](push.png) again.
+Since the changes are in different files, we can fix this by *pulling* ![](pull.png) first and then *pushing* ![](push.png) again.
+
+### TO DO \#11: Let's make a bigger mess. :smiling\_imp: :smiling\_imp:
