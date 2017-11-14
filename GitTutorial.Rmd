@@ -1,7 +1,7 @@
 ---
-title: "Git tutorial for R users"
+title: "Git/GitHub Tutorial for R users"
 author: "Joyce Robbins"
-date: "2017-11-11"
+date: "2017-11-14"
 output: github_document
 ---
 
@@ -17,13 +17,17 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 [Collaboration and time travel: version control with git, github and RStudio](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
 
 
-### TO DO #1: Create a repository
+### TO DO #1: Create a repository on 
 
-1. Sign in to Github, click "Start a project" or click "+" in the upper right corner and then "New repository"
+1. If you have an account, sign in to [GitHub](https://github.com/login), 
+
+If you don't have an account, [create a GitHub account](https://github.com/join?source=login).
+
+(@). click "Start a project" or click "+" in the upper right corner and then "New repository"
 
 2. Give it the name "goldfish" (or any other name you wish)
 
-3. Check the "Initialize this repository with a README" box `r emo::ji("check")`
+3. Check the `r emo::ji("ballot_box_with_check")`"Initialize this repository with a README" box 
 
 4. Click "Create repository"
 

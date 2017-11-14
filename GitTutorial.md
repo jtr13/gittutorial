@@ -1,7 +1,7 @@
-Git tutorial for R users
+Git/GitHub Tutorial for R users
 ================
 Joyce Robbins
-2017-11-11
+2017-11-14
 
 This is a simple barebones tutorial designed to help you first become familiar with GitHub.com, and then get started using a combination of GitHub and Git for code version control, sharing, and collaboration -- three distinct but related enterprises.
 
@@ -9,15 +9,19 @@ If you are not familiar with one or more of the concepts just mentioned, or are 
 
 [Collaboration and time travel: version control with git, github and RStudio](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
 
-### TO DO \#1: Create a repository
+### TO DO \#1: Create a repository on
 
-1.  Sign in to Github, click "Start a project" or click "+" in the upper right corner and then "New repository"
+1.  If you have an account, sign in to [GitHub](https://github.com/login),
 
-2.  Give it the name "goldfish" (or any other name you wish)
+If you don't have an account, [create a GitHub account](https://github.com/join?source=login).
 
-3.  Check the "Initialize this repository with a README" box ✅
+(@). click "Start a project" or click "+" in the upper right corner and then "New repository"
 
-4.  Click "Create repository"
+1.  Give it the name "goldfish" (or any other name you wish)
+
+2.  Check the ☑️"Initialize this repository with a README" box
+
+3.  Click "Create repository"
 
 ### TO DO \#2: Upload a file to the repository
 
